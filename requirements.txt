@@ -6,3 +6,4 @@ PyPDF2
 python-docx
 pydantic
 serpapi
+google-search-results

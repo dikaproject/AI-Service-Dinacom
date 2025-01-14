@@ -1,6 +1,5 @@
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
-import httpx
 import os
 from typing import List, Optional, Dict
 from pathlib import Path
@@ -15,6 +14,7 @@ from expert_system.knowledge_base import KnowledgeBase
 from expert_system.inference_engine import InferenceEngine
 from pydantic import BaseModel
 import re  # Add this import at the top
+
 
 load_dotenv()
 print("Loaded API Keys:")
