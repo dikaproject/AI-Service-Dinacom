@@ -6,7 +6,6 @@ from typing import List, Optional, Dict
 from pathlib import Path
 import PyPDF2
 import docx
-import tiktoken
 from dotenv import load_dotenv
 from serpapi import GoogleSearch
 import asyncio
